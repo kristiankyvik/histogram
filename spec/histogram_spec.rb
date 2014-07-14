@@ -30,6 +30,7 @@ end
 
 
 describe "Histograms" do
+	
 	it "is empty histogram" do
 		expect(Histogram.new.for([])).to eq({})
 	end	

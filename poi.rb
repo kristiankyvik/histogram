@@ -29,7 +29,6 @@ class POI
 	end
 
 
-
 	def self.get_array
 		@@pointOfInterest
 	end
@@ -41,19 +40,6 @@ class POI
 	def self.clean
 		@@pointOfInterest.clear
 	end	
-
-	def self.test
-		point=POI.new("gaudi", "barcelona", 4)
-
-		puts point.name == "gaudi"
-		puts point.location == "barcelona"
-		puts point.rating == 4
-
-		point_two=POI.new("Sagrada Familia", "barcelona", 3)	
-
-		puts @@pointOfInterest.length == 2
-
-	end
 
 end
 
